@@ -13,7 +13,7 @@
         
         .box {
             width: 335px;
-            height: 860px;
+            height: 800px;
             background-color: #ededed;
             margin: auto;
         }
@@ -59,7 +59,7 @@
         }
         
         .chat_box {
-            height: 740px;
+            height: 654px;
             display: flex;
             flex-direction: column;
         }
@@ -69,7 +69,7 @@
         }
         
         .leng_left {
-            margin-right: 35px;
+            margin-right: 43px;
         }
         
         .flex_right {
@@ -101,14 +101,41 @@
             width: 0;
             height: 0;
             border: 5px solid transparent;
-            border-right-color: #95eb6c;
+            border-right-color: #ffffff;
         }
         
-        .xx {
-            background-color: #95eb6c;
+        .xx_rt,
+        .xx_lt {
             color: #001400;
             border-radius: 4px;
             padding: 5px;
+        }
+        
+        .xx_rt {
+            background-color: #95eb6c;
+        }
+        
+        .xx_lt {
+            background-color: #ffffff;
+        }
+        
+        .jt1 {
+            margin-right: 8px;
+        }
+        
+        .chat_box-itme4 {
+            display: flex;
+            flex-direction: row-reverse;
+            margin-right: 40px;
+            margin-top: 10px;
+        }
+        
+        .rt {
+            color: #bfbfbf;
+            background-color: #e1e1e1;
+            font-size: 12px;
+            padding: 5px;
+            border-radius: 4px;
         }
         
         .bottom {
@@ -164,14 +191,32 @@
                 <div class="flex_right">
                     <img src="./imgase/0 (1).jpg" alt="" class="tx">
                     <div class="triangle_right flex_right_1"></div>
-                    <div class="xx">需要用伪类选择器</div>
+                    <div class="xx_rt">需要用伪类选择器</div>
                 </div>
             </div>
             <div class="chat_box-itme2 leng_right">
                 <div class="flex_right">
                     <img src="./imgase/0 (1).jpg" alt="" class="tx">
                     <div class="triangle_right flex_right_1"></div>
-                    <div class="xx">浮动用得不多了</div>
+                    <div class="xx_rt">浮动用得不多了</div>
+                </div>
+
+            </div>
+            <div class="chat_box-itme4 ">
+                <div class='rt'>enchanter: 现在flex布局用得很多</div>
+            </div>
+            <div class="chat_box-itme2 leng_right">
+                <div class="flex_right">
+                    <img src="./imgase/0 (1).jpg" alt="" class="tx">
+                    <div class="triangle_right flex_right_1"></div>
+                    <div class="xx_rt">不过现在可以多练练</div>
+                </div>
+
+            </div>
+            <div class="chat_box-itme5 leng_right">
+                <div class="flex_right">
+                    <img src="./imgase/0 (1).jpg" alt="" class="tx">
+                    <img src="./imgase/jt1.png" alt="" class="jt1">
                 </div>
 
             </div>
@@ -179,18 +224,52 @@
                 <div class="flex_left">
                     <img src="./imgase/0 (1).jpg" alt="" class="tx">
                     <div class="triangle_left flex_right_1"></div>
-                    <div class="xx">书还没看到布局哪儿 这个视频只讲了浮动 前几年的 应该是</div>
+                    <div class="xx_lt">书还没看到布局哪儿 这个视频只讲了浮动 前几年的 应该是</div>
                 </div>
             </div>
-            <div class="chat_box-itme4 leng">4</div>
-            <div class="chat_box-itme5 leng">5</div>
-            <div class="chat_box-itme6 leng">6</div>
-            <div class="chat_box-itme7 leng">7</div>
-            <div class="chat_box-itme8 leng">8</div>
-            <div class="chat_box-itme9 leng">9</div>
-            <div class="chat_box-itme10 leng">10</div>
-            <div class="chat_box-itme11 leng">11</div>
-            <div class="chat_box-itme12 leng">12</div>
+            <div class="chat_box-itme2 leng_right">
+                <div class="flex_right">
+                    <img src="./imgase/0 (1).jpg" alt="" class="tx">
+                    <div class="triangle_right flex_right_1"></div>
+                    <div class="xx_rt">这里调整下 左和右有90%以上的代码能够复用的</div>
+                </div>
+
+            </div>
+            <div class="chat_box-itme2 leng_right">
+                <div class="flex_right">
+                    <img src="./imgase/0 (1).jpg" alt="" class="tx">
+                    <div class="triangle_right flex_right_1"></div>
+                    <div class="xx_rt">就只有方向的差异</div>
+                </div>
+
+            </div>
+            <div class="chat_box-itme5 leng_right">
+                <div class="flex_right">
+                    <img src="./imgase/0 (1).jpg" alt="" class="tx">
+                    <img src="./imgase/jt2.png" alt="" class="jt1">
+                </div>
+            </div>
+            <div class="chat_box-itme3 leng_left">
+                <div class="flex_left">
+                    <img src="./imgase/0 (1).jpg" alt="" class="tx">
+                    <div class="triangle_left flex_right_1"></div>
+                    <div class="xx_lt">哦哦 创建个公共类嘛</div>
+                </div>
+            </div>
+            <div class="chat_box-itme3 leng_left">
+                <div class="flex_left">
+                    <img src="./imgase/0 (1).jpg" alt="" class="tx">
+                    <div class="triangle_left flex_right_1"></div>
+                    <div class="xx_lt">复用减少代码量</div>
+                </div>
+            </div>
+            <div class="chat_box-itme2 leng_right">
+                <div class="flex_right">
+                    <img src="./imgase/0 (1).jpg" alt="" class="tx">
+                    <div class="triangle_right flex_right_1"></div>
+                    <div class="xx_rt">嗯嗯</div>
+                </div>
+            </div>
         </div>
         <div class="bottom">
             <div class="bottom_voice "><img src="./imgase/lision.png" alt="" class="bottom_size bottom_size_1"></div>
