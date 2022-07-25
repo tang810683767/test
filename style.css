@@ -337,7 +337,7 @@ a:hover {
 
 .photo_search {
     position: absolute;
-    width: 19px;
+    width: 15px;
     height: 15px;
     top: 10px;
     right: 75px;
@@ -437,7 +437,7 @@ a:hover {
     width: 590px;
     height: 470px;
     margin-top: 10px;
-    background-color: salmon;
+    /* background-color: salmon; */
 }
 
 .middle_box_right {
@@ -450,7 +450,7 @@ a:hover {
     flex-direction: column;
 }
 
-.box_left li {
+.box_left>li {
     position: relative;
     height: 25px;
     width: 172px;
@@ -458,9 +458,9 @@ a:hover {
 }
 
 .nav_itme1 {
-    width: 800px;
-    height: 530px;
-    background-color: red;
+    width: 998px;
+    height: 470px;
+    background-color: r#ffffff;
     display: none;
     flex-direction: row;
     /* justify-content: space-between; */
@@ -472,6 +472,101 @@ a:hover {
     z-index: 1;
     left: 190px;
     top: -10px;
+}
+
+.nav_itme1_left {
+    width: 800px;
+    height: 470px;
+    margin-left: -200px;
+}
+
+.itme1_left1 {
+    float: left;
+    width: 70px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #333333;
+    text-align: center;
+    color: #ffffff;
+}
+
+.itme1_left2 {
+    float: left;
+    width: 120px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #333333;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.itme1_left1>.left1>a {
+    display: inline-block;
+    color: #ffffff;
+    line-height: 25px;
+}
+
+.itme1_left1>.left1>a:hover {
+    color: #ffffff;
+}
+
+.itme1_left2>.left1>a:hover {
+    color: #ffffff;
+}
+
+.itme1_left2>.left1>a {
+    display: inline-block;
+    color: #ffffff;
+    line-height: 25px;
+}
+
+.left1:hover {
+    background-color: #c81623;
+}
+
+.nav_left {
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    width: 80px;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 10px 0px;
+    /* background-color: aqua; */
+}
+
+.nav_left>li {
+    margin: 10px 0;
+    /* background-color: blueviolet; */
+    height: 20px;
+    width: 80px;
+    padding: 0px;
+}
+
+.nav_itme1>.nav_left>li:hover {
+    background-color: #fff;
+}
+
+.nav_left>li>a {
+    display: inline-block;
+    height: 100%;
+    width: 75px;
+    line-height: 20px;
+    text-align: right;
+    /* padding-right: 5px; */
+    font-weight: 700;
+    color: #333333;
+}
+
+.nav_right {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 20px;
+    left: 100px;
 }
 
 .box_left_1:hover .nav_itme1 {
